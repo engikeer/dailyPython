@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MySQL - mmdata@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="mmdata">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="cdcol"/>
+    <schema id="3" name="hfirst"/>
+    <schema id="4" name="information_schema"/>
+    <schema id="5" name="mysql"/>
+    <schema id="6" name="performance_schema"/>
+    <schema id="7" name="phpmyadmin"/>
+    <schema id="8" name="shopping"/>
+    <schema id="9" name="test"/>
+    <table id="10" parent="1" name="actress"/>
+    <table id="11" parent="1" name="actress_copy"/>
+    <column id="12" parent="10" name="act_id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="13" parent="10" name="name_m">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="14" parent="10" name="name_o">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="15" parent="10" name="name_a">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="16" parent="10" name="act_birthday">
+      <data-type>date|0</data-type>
+    </column>
+    <column id="17" parent="10" name="constel">
+      <data-type>char(12)|0</data-type>
+    </column>
+    <column id="18" parent="10" name="blood_type">
+      <data-type>char(4)|0</data-type>
+    </column>
+    <column id="19" parent="10" name="height">
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="20" parent="10" name="weight">
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="21" parent="10" name="BWH">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="22" parent="10" name="homeplace">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="23" parent="10" name="job">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="24" parent="10" name="debut">
+      <data-type>year(4)|0</data-type>
+    </column>
+    <column id="25" parent="10" name="hobby">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <key id="26" parent="10" name="PRIMARY">
+      <columns>act_id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="27" parent="11" name="act_id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="28" parent="11" name="name_m">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="29" parent="11" name="name_o">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="30" parent="11" name="name_a">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="31" parent="11" name="act_birthday">
+      <data-type>date|0</data-type>
+    </column>
+    <column id="32" parent="11" name="constel">
+      <data-type>char(12)|0</data-type>
+    </column>
+    <column id="33" parent="11" name="blood_type">
+      <data-type>char(4)|0</data-type>
+    </column>
+    <column id="34" parent="11" name="height">
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="35" parent="11" name="weight">
+      <data-type>int(8)|0</data-type>
+    </column>
+    <column id="36" parent="11" name="BWH">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="37" parent="11" name="homeplace">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="38" parent="11" name="job">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="39" parent="11" name="debut">
+      <data-type>year(4)|0</data-type>
+    </column>
+    <column id="40" parent="11" name="hobby">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <key id="41" parent="11" name="PRIMARY">
+      <columns>act_id</columns>
+      <primary>1</primary>
+    </key>
+  </database-model>
+</dataSource>
