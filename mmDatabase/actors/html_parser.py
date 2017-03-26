@@ -60,6 +60,7 @@ class HtmlParser(object):
 
     def _get_new_urls(self, menu_url, soup):
         new_urls = set()
+        
         # /girl/23790/
         links = soup.find_all("a", href=re.compile(r"/girl/\d+/"))
         for link in links:
